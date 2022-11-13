@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 style="margin-top: 15px;">Receiver app is running...</h1>
+    <h5>Users [{{ len_users }}]:</h5>
+    <p>{{ users }}</p>
+    <h5>Lessons [{{ len_lessons }}]:</h5>
+    <p>{{ lessons }}</p>
+    <h5>Blocks [{{ len_blocks }}]:</h5>
+    <p>{{ blocks }}</p>
+{% endblock content %}
